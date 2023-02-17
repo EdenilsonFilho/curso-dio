@@ -7,7 +7,7 @@ Classificação:
 
 - Média menor que 5, reprovado;
 - Média entre 5 e 7, recuperação;
-- Média acima de 7, passou de semestre;  em javascript
+- Média acima de 7, passou de semestre;
 */
 
 const nota1 = 0;
