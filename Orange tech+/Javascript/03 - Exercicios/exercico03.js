@@ -15,15 +15,15 @@ formaPagamento = 1; // 1 - Débito / 2 - Dinheito e PIX / 3 - 2x sem Juros / 4 -
 
 if (formaPagamento === 1){
     valorProduto = valorProduto * 0.9;
-    console.log(valorProduto)
+    console.log(valorProduto);
 } else if (formaPagamento === 2){
     valorProduto = (valorProduto - (valorProduto * 0.15));
-    console.log(valorProduto)
+    console.log(valorProduto);
 } else if (formaPagamento === 3){
-    console.log(valorProduto)
+    console.log(valorProduto);
 } else if (formaPagamento === 4){
     valorProduto = (valorProduto + (valorProduto * 0.1));
-    console.log(valorProduto)
+    console.log(valorProduto);
 } else {
     console.log();
 }
